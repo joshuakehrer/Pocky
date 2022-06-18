@@ -807,6 +807,25 @@
   color: #2914d4;
 }
 
+.button-dark.primary {
+  padding: 12px 32px;
+  border-radius: 4px;
+  background-color: #000;
+  font-family: Lexend, sans-serif;
+  font-weight: 500;
+}
+
+.button-dark.secondary {
+  margin-left: 16px;
+  padding: 12px 32px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: rgba(56, 152, 236, 0);
+  font-family: Lexend, sans-serif;
+  color: #000;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 991px) {
   .cta-text {
     padding-top: 24px;
